@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - node-ironio > request > hawk:
+        patched: '2022-10-06T00:26:19.582Z'
+  'npm:http-signature:20150122':
+    - node-ironio > request > http-signature:
+        patched: '2022-10-06T00:26:19.582Z'
+  'npm:mime:20170907':
+    - node-ironio > request > form-data > mime:
+        patched: '2022-10-06T00:26:19.582Z'
+  'npm:request:20160119':
+    - node-ironio > request:
+        patched: '2022-10-06T00:26:19.582Z'
+  'npm:tunnel-agent:20170305':
+    - node-ironio > request > tunnel-agent:
+        patched: '2022-10-06T00:26:19.582Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2022-10-06T00:26:19.582Z'
